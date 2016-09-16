@@ -1,6 +1,6 @@
 upload:
   script:
-    - echo "hello"
+
 
   after_script:
     - git config credential.helper 'store --file .my-credentials'
