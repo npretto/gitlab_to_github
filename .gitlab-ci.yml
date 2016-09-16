@@ -1,7 +1,4 @@
-upload:
-  script:
-
-
+push_to_github:
   after_script:
     - git config credential.helper 'store --file .my-credentials'
     - echo "https://$github_token:x-oauth-basic@github.com" > .my-credentials
