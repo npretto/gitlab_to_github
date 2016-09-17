@@ -7,5 +7,5 @@ upload:
     - echo "https://$github_token:x-oauth-basic@github.com" > .my-credentials
     - git remote rm github
     - git remote add github https://github.com/npretto/gitlab_to_github.git
-    - git push github master --all
-    - rm .my-credentials
+    - git push github master
+    
