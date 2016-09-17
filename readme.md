@@ -1,5 +1,5 @@
 tldr:
-- get access token from github
-- create a variable in gitlab called github_token
-- add the section push_to_github as seen in .gitlab-ci.yaml
+- get access token from github: https://github.com/settings/tokens
+- create a variable in gitlab named github_token witht the token as name
+- copy the job push_to_github from .gitlab-ci.yaml
 - edit the remote url
