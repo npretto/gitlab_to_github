@@ -5,7 +5,7 @@ upload:
   after_script:
     - git config credential.helper 'store --file .my-credentials'
     - echo "https://$github_token:x-oauth-basic@github.com" > .my-credentials
-    - git pull origin --all
+    - git pull origin
     - git remote rm github
     - git remote add github https://github.com/npretto/gitlab_to_github.git
     - git push github --all
